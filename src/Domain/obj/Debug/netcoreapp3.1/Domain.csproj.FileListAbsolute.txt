@@ -1,0 +1,8 @@
+C:\Users\Avanade\source\repos\AvanadeProject\src\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\Avanade\source\repos\AvanadeProject\src\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Avanade\source\repos\AvanadeProject\src\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Avanade\source\repos\AvanadeProject\src\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\Avanade\source\repos\AvanadeProject\src\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Avanade\source\repos\AvanadeProject\src\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\Avanade\source\repos\AvanadeProject\src\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Avanade\source\repos\AvanadeProject\src\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
