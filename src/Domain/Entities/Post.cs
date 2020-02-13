@@ -8,7 +8,11 @@ namespace AvanadeProject.Domain.Entities
     {
         public Post()
         {
-
+            Midias = new List<Midia>();
+            Likes = new List<Like>();
+            Comments = new List<Post>();
+            Author = new User();
+            ParentId = null;
         }
 
         public Guid? ParentId { get; set; }
@@ -21,7 +25,8 @@ namespace AvanadeProject.Domain.Entities
 
         public override void Validate()
         {
-            throw new NotImplementedException();
+            if (AuthorId == Guid.Empty)
+                throw new ArgumentNullException("'AuthorId' não foi preenchido");
         }
     }
 }

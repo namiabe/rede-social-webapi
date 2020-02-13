@@ -18,7 +18,11 @@ namespace AvanadeProject.Domain.Entities
 
         public override void Validate()
         {
-            throw new NotImplementedException();
+            if (PostId == Guid.Empty)
+                throw new ArgumentNullException("'PostId' não foi preenchido");
+
+            if (UserId == Guid.Empty)
+                throw new ArgumentNullException("'UserId' não foi preenchido");
         }
     }
 }
